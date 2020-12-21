@@ -50,6 +50,7 @@ Module.register("MMM-PuppeteerChecker", {
 
     // create element wrapper for show into the module
     var wrapper = document.createElement("div");
+    wrapper.className = "small";
 
     if (!this.loaded) {
       wrapper.innerHTML = "Loading " + this.config.name + " Status ...";
