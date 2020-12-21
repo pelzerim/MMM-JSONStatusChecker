@@ -1,11 +1,10 @@
 {
-  "name": "MMM-JSONStatusChecker",
+  "name": "MMM-PuppeteerChecker",
   "version": "1.0.1",
-  "description": "Module to show status of AirVPN connection",
-  "main": "MMM-JSONStatusChecker.js",
+  "main": "MMM-PuppeteerChecker.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shbatm/MMM-JSONStatusChecker.git"
+    "url": "git+https://github.com/pelzerim/MMM-PuppeteerChecker.git"
   },
   "keywords": [
     "status",
@@ -15,12 +14,13 @@
   "author": "shbatm",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shbatm/MMM-JSONStatusChecker/issues"
+    "url": "https://github.com/pelzerim/MMM-PuppeteerChecker/issues"
   },
-  "homepage": "https://github.com/shbatm/MMM-JSONStatusChecker#readme",
+  "homepage": "https://github.com/pelzerim/MMM-PuppeteerChecker#readme",
   "dependencies": {
     "log-timestamp": "^0.1.2",
     "pm2": "^2.4.0",
+    "puppeteer": "^5.5.0",
     "snyk": "^1.192.3"
   },
   "scripts": {
