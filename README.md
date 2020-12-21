@@ -17,6 +17,7 @@ Based on https://github.com/shbatm/MMM-JSONStatusChecker
 1. Navigate to your MagicMirror `modules` directory.
 2. Execute `git clone https://github.com/pelzerim/MMM-PuppeteerChecker`.
 3. Add the module to your MagicMirror's `config.js` file (see next section).
+4. Install chromium `sudo apt install chromium-browser chromium-codecs-ffmpeg`
 
 ## Using the Module
 
